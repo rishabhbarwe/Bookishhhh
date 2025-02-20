@@ -54,7 +54,7 @@ const LoginModal: React.FC<loginModalType> = ({ visible, onClose,navigation}) =>
                         <Text style={styles.rememberMeText}>Remeber me!</Text>
                         </View>
                     <View>
-                    <TouchableOpacity style={styles.button} onPress={()=>navigation.navigate("dashboard")}>
+                    <TouchableOpacity style={styles.button} onPress={()=>navigation.navigate("Drawer")}>
                         <Text style={styles.buttonText}>Login</Text>
                     </TouchableOpacity>
                     

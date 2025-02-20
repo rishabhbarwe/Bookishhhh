@@ -5,6 +5,8 @@ import Dashboard from './Screens/Dashboard';
 import Store from './Screens/Store';
 import { Provider } from 'react-redux';
 import Mainroute from './Screens/Mainroute';
+import 'react-native-gesture-handler';
+
 
 const App = () => {
   return (
